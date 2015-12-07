@@ -29,6 +29,11 @@ class PizzaFixture extends TestFixture
         'crustType' => ['type' => 'string', 'length' => 10, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         'toppings' => ['type' => 'string', 'length' => 50, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         'quantity' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
+        'address' => ['type' => 'string', 'length' => 50, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'city' => ['type' => 'string', 'length' => 15, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'province' => ['type' => 'string', 'length' => 15, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'postal_code' => ['type' => 'string', 'length' => 8, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'contact' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
         ],
@@ -50,7 +55,12 @@ class PizzaFixture extends TestFixture
             'pizzaSize' => 'Lorem ip',
             'crustType' => 'Lorem ip',
             'toppings' => 'Lorem ipsum dolor sit amet',
-            'quantity' => 1
+            'quantity' => 1,
+            'address' => 'Lorem ipsum dolor sit amet',
+            'city' => 'Lorem ipsum d',
+            'province' => 'Lorem ipsum d',
+            'postal_code' => 'Lorem ',
+            'contact' => 1
         ],
     ];
 }
