@@ -55,22 +55,6 @@ class PizzaTable extends Table
             ->add('quantity', 'valid', ['rule' => 'numeric'])
             ->allowEmpty('quantity');
 
-        $validator
-            ->allowEmpty('address');
-
-        $validator
-            ->allowEmpty('city');
-
-        $validator
-            ->allowEmpty('province');
-
-        $validator
-            ->allowEmpty('postal_code');
-
-        $validator
-            ->add('contact', 'valid', ['rule' => 'numeric'])
-            ->allowEmpty('contact');
-
         return $validator;
     }
 }

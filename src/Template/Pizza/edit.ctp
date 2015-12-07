@@ -19,11 +19,6 @@
             echo $this->Form->input('crustType');
             echo $this->Form->input('toppings');
             echo $this->Form->input('quantity');
-            echo $this->Form->input('address');
-            echo $this->Form->input('city');
-            echo $this->Form->input('province');
-            echo $this->Form->input('postal_code');
-            echo $this->Form->input('contact');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
