@@ -346,3 +346,59 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-12-07 08:24:43 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:37:39 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 09:11:48 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 09:11:57 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

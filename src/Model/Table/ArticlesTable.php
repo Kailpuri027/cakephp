@@ -23,6 +23,10 @@ class ArticlesTable extends Table
     public function initialize(array $config)
     {
         $this->addBehavior('Timestamp');
+		// Just add the belongsTo relation with CategoriesTable
+        $this->belongsTo('Categories', [
+            'foreignKey' => 'category_id',
+        ]);
     }
 
     /**
@@ -34,14 +38,10 @@ class ArticlesTable extends Table
     public function validationDefault(Validator $validator)
     {
         $validator
-            ->add('id', 'valid', ['rule' => 'numeric'])
-            ->allowEmpty('id', 'create');
-
-        $validator
-            ->allowEmpty('title');
-
-        $validator
-            ->allowEmpty('body');
+            ->notEmpty('title')
+            ->requirePresence('title')
+            ->notEmpty('body')
+            ->requirePresence('body');
 
         return $validator;
     }
