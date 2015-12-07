@@ -5,15 +5,13 @@
     </ul>
 </nav>
 <div class="users form">
-<?= $this->Form->create($user) ?>
+<?= $this->Flash->render('auth') ?>
+<?= $this->Form->create() ?>
     <fieldset>
-        <legend><?= __('Add User') ?></legend>
+        <legend><?= __('Please enter your username and password') ?></legend>
         <?= $this->Form->input('username') ?>
         <?= $this->Form->input('password') ?>
-        <?= $this->Form->input('role', [
-            'options' => ['admin' => 'Admin', 'author' => 'Author']
-        ]) ?>
-   </fieldset>
-<?= $this->Form->button(__('Submit')); ?>
+    </fieldset>
+<?= $this->Form->button(__('Login')); ?>
 <?= $this->Form->end() ?>
 </div>

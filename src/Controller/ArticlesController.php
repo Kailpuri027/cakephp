@@ -18,8 +18,8 @@ class ArticlesController extends AppController
      */
     public function index()
     {
-        $this->set('articles', $this->paginate($this->Articles));
-        $this->set('_serialize', ['articles']);
+        $articles = $this->Articles->find('all');
+        $this->set(compact('articles'));
     }
 
     /**

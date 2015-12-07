@@ -1,0 +1,336 @@
+2015-12-07 07:31:41 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 07:36:05 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 07:36:18 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 07:49:22 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 07:49:51 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 07:59:44 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:00 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:03 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:07 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:17 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:26 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:44 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:48 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:00:59 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:01:17 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-07 08:01:26 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 87
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 82
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
