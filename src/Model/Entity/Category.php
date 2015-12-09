@@ -1,20 +1,24 @@
 <?php
 namespace App\Model\Entity;
 
-use Cake\Auth\DefaultPasswordHasher;
 use Cake\ORM\Entity;
 
 /**
- * User Entity.
+ * Category Entity.
  *
  * @property int $id
- * @property string $username
- * @property string $password
- * @property string $role
+ * @property int $parent_id
+ * @property \App\Model\Entity\ParentCategory $parent_category
+ * @property int $lft
+ * @property int $rght
+ * @property string $name
+ * @property string $description
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
+ * @property \App\Model\Entity\Article[] $articles
+ * @property \App\Model\Entity\ChildCategory[] $child_categories
  */
-class User extends Entity
+class Category extends Entity
 {
 
     /**
@@ -26,13 +30,8 @@ class User extends Entity
      *
      * @var array
      */
-     protected $_accessible = [
+    protected $_accessible = [
         '*' => true,
-        'id' => false
+        'id' => false,
     ];
-
-    protected function _setPassword($password)
-    {
-        return (new DefaultPasswordHasher)->hash($password);
-    }
 }

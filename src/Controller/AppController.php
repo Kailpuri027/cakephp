@@ -23,7 +23,7 @@ use Cake\Event\Event;
  * Add your application-wide methods in the class below, your controllers
  * will inherit them.
  *
- * @link http://book.cakephp.org/3.0/en/controllers.html#the-app-controller
+ * @link http://book.cakephp.org/3.0/en/controllers.htmlthe-app-controller
  */
 class AppController extends Controller
 {
@@ -40,17 +40,18 @@ class AppController extends Controller
     public function initialize()
     {
         $this->loadComponent('Flash');
-        $this->loadComponent('Auth', [
-            'loginRedirect' => [
-                'controller' => 'Articles',
-                'action' => 'index'
-            ],
-            'logoutRedirect' => [
-                'controller' => 'Pages',
-                'action' => 'display',
-                'home'
-            ]
-        ]);
+    $this->loadComponent('Auth', [
+        'authorize' => ['Controller'], 
+        'loginRedirect' => [
+            'controller' => 'Articles',
+            'action' => 'index'
+        ],
+        'logoutRedirect' => [
+            'controller' => 'Pages',
+            'action' => 'display',
+            'home'
+        ]
+    ]);
     }
 
     /**
@@ -63,4 +64,20 @@ class AppController extends Controller
     {
         $this->Auth->allow(['index', 'view', 'display']);
     }
+	
+	public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow(['index', 'view', 'display']);
+    }
+	
+	public function isAuthorized($user)
+{
+    // Admin can access every action
+    if (isset($user['role']) && $user['role'] === 'admin') {
+        return true;
+    }
+
+    // Default deny
+    return false;
+}
 }
