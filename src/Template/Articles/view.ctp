@@ -5,6 +5,7 @@
         <li><?= $this->Form->postLink(__('Delete Article'), ['action' => 'delete', $article->id], ['confirm' => __('Are you sure you want to delete # {0}?', $article->id)]) ?> </li>
         <li><?= $this->Html->link(__('List Articles'), ['action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Article'), ['action' => 'add']) ?> </li>
+		<li><?= $this->Html->link(__('Add Comment'), ['controller' => 'Comments', 'action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="articles view large-9 medium-8 columns content">
@@ -30,5 +31,9 @@
     <div class="row">
         <h4><?= __('Body') ?></h4>
         <?= $this->Text->autoParagraph(h($article->body)); ?>
+    </div>
+	<div class="row">
+        <h4><?= __('Comments') ?></h4>
+        <?= $this->Text->autoParagraph(h($comment->body)); ?>
     </div>
 </div>

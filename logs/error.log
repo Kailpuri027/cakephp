@@ -990,3 +990,243 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-12-11 06:10:16 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:12:35 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:14:32 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:14:51 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:14:55 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:15:01 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:17:00 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:17:00 Warning: Warning (4096): Object of class Cake\Event\Event could not be converted to string in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 16
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:17:00 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of Cake\Event\Event, string given, called in C:\xampp\htdocs\cakephp\src\Controller\UsersController.php on line 16 and defined in [C:\xampp\htdocs\cakephp\src\Controller\AppController.php, line 68]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 68
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 16
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-11 06:27:08 Error: [Cake\Network\Exception\MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp/users/delete/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\src\Controller\UsersController.php(118): Cake\Network\Request->allowMethod(Array)
+#1 [internal function]: App\Controller\UsersController->delete('1')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-11 06:36:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Category could not be found.
+Exception Attributes: array (
+  'class' => 'Category',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/category
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-11 06:37:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Category could not be found.
+Exception Attributes: array (
+  'class' => 'Category',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/category
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-11 06:39:42 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php, line 76]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-11 06:39:43 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-11 06:42:42 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::catagories() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'catagories',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/articles/catagories/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-11 06:43:16 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::http:() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'http:',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/articles/http:/localhost:8080/cakephp/catagories/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-11 06:46:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Catagories could not be found.
+Exception Attributes: array (
+  'class' => 'Catagories',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/catagories
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-11 06:51:11 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\cakephp\src\Template\Articles\add.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-11 06:51:12 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ','
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
